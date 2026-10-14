@@ -12,20 +12,19 @@ Also keeps the last 5 passwords generated in this session so you can scroll back
 
 - Python
 - tkinter for the GUI
-- secrets module (not random) for actually generating the passwords - this matters because `random` isn't meant for anything security related, `secrets` is designed for it
+- secrets module (not random) for actually generating the passwords
 
 ## How to run it
 
-```
 python password_generator.py
-```
+
 No extra installs needed, everything used is part of standard Python.
 
 ## How to use it
 
 1. Set your desired length (default 12)
 2. Check/uncheck which character types you want included
-3. Optionally turn on "Avoid ambiguous chars" if you don't want confusing characters like 0/O or l/1 in there
+3. Optionally turn on "Avoid ambiguous chars"
 4. Click Generate
 5. Click Copy to put it on your clipboard
 
@@ -39,5 +38,5 @@ No extra installs needed, everything used is part of standard Python.
 
 ## Known limitations
 
-- History is only kept while the app is open, nothing is saved to a file (on purpose - don't want to write passwords to disk)
-- Minimum length is 4, didn't see a point going lower than that
+- History is only kept while the app is open, nothing is saved to a file
+- Minimum length is 4
